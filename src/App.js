@@ -8,6 +8,7 @@ const Pet = ({ name, animal, breed }) => {
 
 const App = () => {
   console.log("testing");
+  console.log("testing");
   return React.createElement("div", {}, [
     React.createElement("h1", {}, "Adopt Me!"),
     React.createElement(Pet, {

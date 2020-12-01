@@ -5,7 +5,6 @@ import ErrorBoundary from "./ErrorBoundary";
 class Details extends Component {
   state = { loading: true };
   componentDidMount() {
-    throw new Error("lol");
     pet
       .animal(this.props.id)
       .then(({ animal }) => {

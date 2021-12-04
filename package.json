@@ -2,7 +2,7 @@
   "name": "fem-adopt-me",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://https://sjeremich23.github.io/Fem-Adopt-Me",
+  "homepage": "https://sjeremich23.github.io/Fem-Adopt-Me",
   "main": "index.js",
   "devDependencies": {
     "babel-eslint": "^10.1.0",

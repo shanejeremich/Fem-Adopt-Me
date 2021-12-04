@@ -6,7 +6,7 @@ class Carousel extends Component {
     active: 0,
   };
   static getDerivedStateFromProps({ media }) {
-    let photos = ["https://placecorgi.com/600/600"];
+    let photos = ["http://placecorgi.com/600/600"];
     if (media.length) photos = media.map(({ large }) => large);
     return { photos };
   }

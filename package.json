@@ -18,8 +18,8 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "start": "parcel src/index.html",
-    "predeploy": "rm -rf dist && parcel build src/index.html --public-url ./ ",
+    "start": "cross-env NODE_ENV=development parcel src/index.html",
+    "predeploy": "cross-env NODE_ENV=production rm -rf dist && parcel build src/index.html --public-url https://sjeremich23.github.io/Fem-Adopt-Me/ ",
     "deploy": "gh-pages -d dist",
     "format": "prettier \"src/**/*.{js,html,json}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",

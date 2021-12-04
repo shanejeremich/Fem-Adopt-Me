@@ -4690,7 +4690,7 @@ exports.default = void 0;
 
 var _react = require("react");
 
-const ThemeContext = /*#__PURE__*/(0, _react.createContext)(["green", () => {}]);
+const ThemeContext = (0, _react.createContext)(["green", () => {}]);
 var _default = ThemeContext;
 exports.default = _default;
 },{"react":"n8MK"}],"oLoL":[function(require,module,exports) {
@@ -4901,7 +4901,7 @@ const Modal = _ref => {
     modalRoot.appendChild(elRef.current);
     return () => modalRoot.removeChild(elRef.current);
   }, []);
-  return /*#__PURE__*/(0, _reactDom.createPortal)( /*#__PURE__*/_react.default.createElement("div", null, children), elRef.current);
+  return (0, _reactDom.createPortal)( /*#__PURE__*/_react.default.createElement("div", null, children), elRef.current);
 };
 
 var _default = Modal;
@@ -5193,4 +5193,4 @@ const App = () => {
 const app = document.getElementById("app");
 (0, _reactDom.render)( /*#__PURE__*/_react.default.createElement(App, null), app);
 },{"react":"n8MK","react-dom":"NKHc","@reach/router":"VJZj","./SearchParams":"oLoL","./Details":"XGSj","./ThemeContext":"DIxv"}]},{},["lY9v"], null)
-//# sourceMappingURL=App.dfd6e7af.js.map
+//# sourceMappingURL=App.df5f45d7.js.map

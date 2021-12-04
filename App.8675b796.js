@@ -5190,7 +5190,6 @@ const App = () => {
   })))));
 };
 
-const app = document.getElementById("root");
-(0, _reactDom.render)( /*#__PURE__*/_react.default.createElement(App, null), app);
+(0, _reactDom.render)( /*#__PURE__*/_react.default.createElement(App, null), document.getElementById("root"));
 },{"react":"n8MK","react-dom":"NKHc","@reach/router":"VJZj","./SearchParams":"oLoL","./Details":"XGSj","./ThemeContext":"DIxv"}]},{},["lY9v"], null)
-//# sourceMappingURL=App.46a8aed5.js.map
+//# sourceMappingURL=App.8675b796.js.map

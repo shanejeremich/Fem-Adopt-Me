@@ -5190,7 +5190,7 @@ const App = () => {
   })))));
 };
 
-const app = document.getElementById("app");
+const app = document.getElementById("root");
 (0, _reactDom.render)( /*#__PURE__*/_react.default.createElement(App, null), app);
 },{"react":"n8MK","react-dom":"NKHc","@reach/router":"VJZj","./SearchParams":"oLoL","./Details":"XGSj","./ThemeContext":"DIxv"}]},{},["lY9v"], null)
-//# sourceMappingURL=App.df5f45d7.js.map
+//# sourceMappingURL=App.46a8aed5.js.map
